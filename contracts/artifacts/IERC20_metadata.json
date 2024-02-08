@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dao.sol": "IERC20"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dao.sol": {
+			"keccak256": "0x599e3aa839c95e02bece7ddd6b5b2a13486a5476e942083b224f0d03de12b6fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba091f54daf4c16fa29b1f8b15465d57023ecd989bbb02ece3e5b394e776b928",
+				"dweb:/ipfs/QmaYwjZ6JfzsqS6T5wXx38cX1Wcyvap2YedTMHytH4S5Da"
+			]
+		}
+	},
+	"version": 1
+}
