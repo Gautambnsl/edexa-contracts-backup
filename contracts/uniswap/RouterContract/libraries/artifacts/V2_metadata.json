@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "INIT_CODE_PAIR_HASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RouterContract/libraries/UniswapV2Library.sol": "V2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+			"keccak256": "0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b",
+			"urls": [
+				"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf",
+				"dweb:/ipfs/QmayKQWJgWmr46DqWseADyUanmqxh662hPNdAkdHRjiQQH"
+			]
+		},
+		"RouterContract/libraries/SafeMath.sol": {
+			"keccak256": "0x545b497825280461cf28fc3da90ed19f8b669b9d445242601724d5caaf8609dc",
+			"urls": [
+				"bzz-raw://cc5f18bb03ff39ab2a622c9246dc8d0646af70e1cc52f42a9951bd10d335d4b7",
+				"dweb:/ipfs/QmPm3uXN62aqGKmszBVFDg22ty76iR8sJmssPWpF1T2cHA"
+			]
+		},
+		"RouterContract/libraries/UniswapV2Library.sol": {
+			"keccak256": "0x3e2efa89a4e4c7a06cc465cf0acbfdb104fdaa6924796df11b0aa355bb7e2159",
+			"urls": [
+				"bzz-raw://7d0a7ad6a4659a2376890ab8a45a8277d5658ebd2db51835816503ab6fe45764",
+				"dweb:/ipfs/QmQ15wBY5X6tXN7L8QzYyLvrmWqVUbccafLsQS6ex9MjuK"
+			]
+		}
+	},
+	"version": 1
+}
